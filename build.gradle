@@ -1,0 +1,26 @@
+plugins {
+    id 'java-library'
+}
+
+group = 'com.bluebatray'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = '21'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    //json compare
+    // https://mvnrepository.com/artifact/com.flipkart.zjsonpatch/zjsonpatch
+    implementation 'com.flipkart.zjsonpatch:zjsonpatch:0.4.16'
+
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
