@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'com.bluebatray'
-version = '1.0.0'
+version = 'v0.1.0-alpha'
 
 java {
     sourceCompatibility = '21'
@@ -12,6 +12,7 @@ java {
 repositories {
     mavenCentral()
 }
+
 
 dependencies {
 
