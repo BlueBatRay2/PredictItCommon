@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'com.bluebatray'
-version = 'v0.1.1-alpha'
+version = 'v0.1.2-alpha'
 
 java {
     sourceCompatibility = '21'
